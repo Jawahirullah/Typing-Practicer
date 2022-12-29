@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Number Key Practicer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <header>Typing Practicer</header>
+        <select name="letters-type" id="letters-type-chooser">
+            <option value="numbers">Numbers</option>
+            <option value="alphabets">Alphabets</option>
+            <option value="symbols1">Symbols 1</option>
+            <option value="symbols2">Symbols 2</option>
+        </select>
+    </nav>
+    <div id="wrapper">
+        <div id="timer"><span id="min">00</span> : <span id="sec">00</span></div>
+    </div>
+    <div id="result-wrapper">
+        <div id="result-box">
+            <span class="break">Mistakes<span id="wrong-answers"></span></span>
+            <span class="break">CPM<span id="cpm"></span></span>
+            <span class="break">Accuracy<span id="accuracy"></span></span>
+            <span class="break">Time<span id="time-taken"></span></span>
+            <button id="restart">Restart</button>
+        </div>
+    </div>
+</body>
+
+</html>
